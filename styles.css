@@ -1,0 +1,71 @@
+body {
+	background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 20px 20px 20px 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+/*------For Postcard Header------*/
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 400px;
+	margin: 0%;
+}
+
+/*------For Postcard body------*/
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 5px 5px 5px 5px;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+input {
+	border-style: hidden;
+	background: #d9d9d9;
+	height: 20px;
+	border-radius: 5px;
+}
+
+/*------For Postcard footer------*/
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	width: 200px;
+	height: 30px;
+	background: #d9d9d9;
+	border-radius: 5px;
+	border-style: hidden;
+	font-family: "Montserrat", sans-serif;
+}
+
+/*------Delete or comment when the code is finished------*/
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
